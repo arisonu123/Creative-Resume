@@ -51,6 +51,8 @@ void creativeResume::contactInfo(){//displays my contact info
 	cout<<"\nAlison Taylor"<<endl;
 	cout<<"540-419-6436"<<endl;
     cout<<"taylorakt1993@gmail.com"<<endl;
+	cout << "1535 N 1st St, Apt D" << endl;
+	cout << "San Jose, CA 95112" << endl;
 	cout<<"\n";
     menu();
 
@@ -63,46 +65,57 @@ void creativeResume::skills(){//displays my list of skills
   cout<<"\nLanguages: "<<endl;
   cout<<"C#"<<endl;
   cout<<"C++"<<endl;
-  cout<<"Lua"<<endl;
-  cout<<"Python"<<endl;
-  cout<<"Java"<<endl;
+  cout << "Java" << endl;
+  cout << "Python" << endl;
+  cout << "SQL" << endl;
+  cout << "MySQL" << endl;
+  cout << "Access SQL" << endl;
   cout << "JavaScript" << endl;
+  cout << "XML" << endl;
+  cout<< "Lua" << endl;
+  cout << "HTML/CSS" << endl;
   cout<<"Visual Basic"<<endl;
   cout<<"ActionScript"<<endl;
-  cout<<"\n";
-  cout<<"SoftWare: "<<endl;
-  cout<<"Unity"<<endl;
-  cout<<"Unity Mecanim"<<endl;
-  cout<<"PhotoShop"<<endl;
-  cout<<"Flash"<<endl;
-  cout << "Sourcetree & Git" << endl;
-  cout << "Axosoft" << endl;
-  cout << "Android Studio" << endl;
   cout<<"\n";
   cout<<"IDES: "<<endl;
   cout<<"Visual Studio"<<endl;
   cout<<"MonoDevelop"<<endl;
-  cout<<"SciTE"<<endl;
+  cout << "Eclispe" << endl;
   cout << "IDLE" << endl;
-  cout<<"BlueJ"<<endl;
-  cout<<"JCreator"<<endl;
-  cout<<"Eclispe"<<endl;
+  cout << "SciTE" << endl;
+  cout<< "BlueJ" <<endl;
+  cout<< "JCreator" <<endl;
   cout<<"\n";
-  cout << "Other Skills: " << endl;
+  cout << "SoftWare: " << endl;
+  cout << "Unity" << endl;
+  cout << "Sourcetree & Git" << endl;
+  cout << "Unity Mecanim" << endl;
+  cout << "Unity Analytics" << endl;
+  cout << "Unreal" << endl;
+  cout << "Git Bash" << endl;
+  cout << "Microsoft Access" << endl;
+  cout << "PhpMyAdmin" << endl;
+  cout << "Axosoft" << endl;
+  cout << "Android Studio" <<  endl;
+  cout << "PhotoShop" << endl;
+  cout << "Flash" << endl;
+  cout << "DreamWeaver" << endl;
+  cout << "\n";
+  cout << "Operating Systems: " << endl;
+  cout << "Windows OS" << endl;
+  cout << "Mac OS" << endl;
+  cout << "\n";
+  cout << "Methologies: " << endl;
   cout << "Scrum" << endl;
   cout << "Agile Development" << endl;
   cout << "JSON" << endl;
-  cout << "Windows OS" << endl;
-  cout << "Mac OS" << endl;
-  cout << "XML" << endl;
-  cout << "HTML/CSS" << endl;
   cout << "\n";
   menu();
 
 
 }
 void creativeResume::projects() {//displays info on projects I have been a part of
-	string title = "Other Team Projects";
+	string title = "Personal Projects";
     centerString(title);
 
 	string project = "\nVanarchy                     Position:  Programmer                May 2016";
@@ -124,6 +137,15 @@ void creativeResume::projects() {//displays info on projects I have been a part 
 void creativeResume::workExp(){//displays info on my work exp
 string title="Work Experience";
   centerString(title);
+  cout << "\nImmersion                                 San Jose, CA    January 2017-Present" << endl;
+  cout << "\n";
+  cout << "Software Engineering Intern";
+  cout << "\n";
+  cout << "\nCollaborated on the TouchSense Force game tool that helped developers get" << endl;
+  cout << "haptics into their VR, Mobile, Console, and PC games. It allows developers to" << endl;
+  cout << "design effects and link them to animations with very minimal code using a UI" << endl;
+  cout << "similar to that used in many audio design programs. Integrated the TouchSense" << endl;
+  cout << "Force game tool into an Oculus Rift Demo Game Project." << endl;
   cout<<"\n(Under Contract To) The Crimson Nights Team, Tempe,AZ	October 2015-Present"<<endl;
   cout<<"\n";
   cout<<"Programmer"<<endl;
@@ -143,7 +165,7 @@ string title="Work Experience";
 void creativeResume::education(){//display info on my education
   string title="Education";
   centerString(title);
-  cout<<"\nUniversity Of Advancing Technology Remote Expected Graduation Date:Sep 2017 \nGPA: 3.89"<<endl;
+  cout<<"\nUniversity Of Advancing Technology Remote Expected Graduation Date:November 2017 \nGPA: 3.90"<<endl;
   cout<<"Degree: B.S. In Game Programming"<<endl;
   cout << "Relevant Coursework: Advanced C/C++ Programming, C# Programming, Java" << endl;
   cout << "Programming, Gameplay Programming, Scripting Integration, Data Structures and \nAlgorithms, SQL" << endl;

@@ -1,3 +1,2 @@
 ﻿  TaylorCreativeResume.cpp
-stdafx.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
-  TaylorCreativeResume.vcxproj -> C:\Users\arisonu\Desktop\UAT\Communication In Tech\Creative Resume\TaylorCreativeResume\Debug\TaylorCreativeResume.exe
+  TaylorCreativeResume.vcxproj -> D:\UAT\projectRepositories\CreativeResume\Creative Resume\TaylorCreativeResume\Debug\TaylorCreativeResume.exe
